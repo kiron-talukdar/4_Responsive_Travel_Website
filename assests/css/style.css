@@ -38,7 +38,7 @@ h1{
     color: #fff;
 }
 h2{
-    font-size: 40px;
+    font-size: 44px;
 }
 h3{
     font-size: 36px;
@@ -90,6 +90,14 @@ span{
     padding-left: 20px;
 }
 
+ .menu-icons {
+    border: 2px solid #FF5400;
+    padding: 5px 9px;
+    font-size: 22px !important;
+    border-radius: 3px;
+    display: none;
+} 
+
 .header-buttons ul{
     display: flex;
     flex-wrap: wrap;
@@ -104,7 +112,7 @@ span{
 .header-banner{
     /* background: url(') no-repeat scroll center center / cover; */
     background: url("/assests/Images/Group\ 13\ \(1\)\ \(1\).png") no-repeat scroll center center / cover;
-    padding: 105px 185px ;
+    padding: 105px 100px ; 
     border-radius: 10px;
 }
 .banner-info {
@@ -115,29 +123,23 @@ span{
 	padding-top: 24px;
 	padding-bottom: 50px;
 }
+
 .banner-buttons {
-	background: #ffffff3f;
-	border-radius: 8px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	padding: 20px;
+	display: flex;
+	justify-content: center;
+    box-sizing: border-box;
 }
-
-
 .header-form {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	grid-gap: 20px;
-	/* background: #ffffff3f; */
-	/* border-radius: 8px; */
-	/* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
+	background: #ffffff3f; 
+	border-radius: 8px;
+    padding: 25px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
-/* 
-    background: #ffffff3f;
-    border-radius: 8px;
-    padding: 25px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); */
 .banner-buttons [type="text"] [id="s_"] [type="submit"]{
     width: 170px;
     height: 52px;
@@ -151,6 +153,7 @@ input{
 	width: 170px;
 	height: 52px;
 	border-radius: 8px;
+    padding: 10px;
     border: none;
 }
 .button2{
@@ -167,12 +170,12 @@ input{
 /* 2 popular tour */
 .popular-tours{
     display: flex;
-    gap: 100px;
+    gap: 70px;
    
 }
-.popular-tour-info {
+ .popular-tour-info {
 	padding: 0px 10px;
-}
+} 
 .popular-tour-info p{
     padding: 20px 0;
 }
@@ -243,7 +246,6 @@ input{
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     gap: 20px; 
-    height: 300px;
 }
 
 .row2 {
@@ -252,14 +254,12 @@ input{
 	/* grid-template-columns: 35% 50% 25%; */
 	 grid-template-columns:3fr 4fr  2fr ;
 
-	column-gap: 20px;
-	height: 300px;
+	gap: 20px;
 }
 .row3{
-    height: 300px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    column-gap: 20px;    
+    gap: 20px;    
 }
 
 .one,.two,.three,.four,.five,.six,.seven{
@@ -268,6 +268,7 @@ input{
     align-items: center;
     color: white;
     border-radius: 10px;
+    height: 300px;
 }
 
 /* 4. choose us area start */
@@ -335,18 +336,19 @@ input{
     background: url("/assests/Images/Group\ 39.png")  no-repeat scroll center center / cover;
 }
 
-.dd-img1, .dd-img2, .dd-img3{
-    height: 500px;
-    border-radius: 16px;
 
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding-right: 70px;
+.dd-img1, .dd-img2, .dd-img3 {
+	height: 500px;
+	border-radius: 16px;
+
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding: 70px;
 }
 .dd-img2 {
     justify-content: left;
-    padding-left: 70px;
+    /* padding-left: 70px; */
 
 }
 
@@ -392,21 +394,26 @@ input{
 }
 
 /* 6.  video area */
-.visiting-video{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    column-gap: 30px;
+.visiting-video {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+	border: 1px solid rgba(41, 206, 246, 0.20);
+	background: rgba(41, 206, 246, 0.05);
+	padding: 50px 10px;
 }
+/* .cart2 {
+	border-radius: 16px;
+	border: 1px solid rgba(41, 206, 246, 0.20);
+	background: rgba(41, 206, 246, 0.05);
+} */
 
-
-.popular-tour-video video{
-    width: 620px;
-   height: auto;
-   border-radius: 10px;
-   top: 0;
-
+.popular-tour-video video {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+	top: 0;
 }
 .visiting-video-info h2{
     font-size: 36px;
@@ -425,6 +432,7 @@ input{
 }
 
 
+/* 7 subscribe area start */
 /* 7 subscribe area start */
 /* .subscribe-area{
 
@@ -508,7 +516,6 @@ input{
 	justify-content: center;
 	align-items: center;
 }
-
 /* 8 footer area start */
 .footer-area{
     background: rgba(19, 19, 24, 0.05);
@@ -543,5 +550,4 @@ input{
 .footer hr{
     margin-bottom: 100px;
 }
-
 

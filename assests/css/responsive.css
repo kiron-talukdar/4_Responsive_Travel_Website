@@ -1,0 +1,223 @@
+
+@media screen and (max-width:990px)
+{
+    /* global */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+/* 1 area start */
+
+    .header-buttons a {
+        padding: 0 15px;
+    }
+    .banner-info h1{
+        font-size: 57px;
+    }
+    .header-form {
+        grid-gap: 10px;
+    }
+    .banner-buttons input, .banner-buttons select, .banner-buttons button {
+        font-size: 14px;
+        width: 150px;
+        height: 45px;
+    }
+
+
+    /* 2 area start */
+
+    /* 6 video area */
+    .visiting-video {  
+        padding: 20px 0px;
+    }
+    /* 7 subscribe */
+
+    .subscribe-form-area {
+        padding: 20px;
+    }
+
+    /* 8 footer */
+    .section-padding {
+        padding: 50px 0px;
+    }
+    .footer hr {
+        margin-bottom: 50px;
+    }
+    .footer {
+        padding: 0 100px;
+    }
+}
+
+@media screen and (max-width:768px){
+/* 1 area start */
+    .menu-icons {
+        display: inline-block;
+    }
+    .header-buttons {
+        display: none;
+    }
+    .header-form {
+        flex-wrap: wrap;
+    }
+    .banner-info h1 {
+        font-size: 40px;
+    }
+    .banner-buttons input, .banner-buttons select, .banner-buttons button {
+        font-size: 16px;
+        width: 190px;
+        height: 45px;
+    }
+    .header-form {
+        grid-gap: 15px;
+    }
+    .header-banner {
+        padding: 57px 50px;
+    }
+
+    /* 2 area start */
+
+    /* 5 */
+        
+        .dd-img1,  .dd-img3 {
+            justify-content: center;
+            align-items: center;
+            /* padding: 40px; */
+        } 
+        .dd-cart {
+            height: 400px;
+            padding: 40px;
+            margin-top: 130px;
+        }
+
+
+
+
+    /* 7 subscribe */
+    .subscribe {
+        flex-direction: column;
+    }
+    .subscribe-img {
+        background: url("/assests/Images/Rectangle\ 8.png") no-repeat scroll center center / cover;
+        border-radius: 16px;
+        max-width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        height: 500px;
+        margin-top: 50px;
+    }
+    /* 8.footer start */
+    .footer {
+        padding: 0 30px;
+    }
+} 
+
+@media screen and (max-width:576px){
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    /* .header-banner {
+        padding: 57px 50px;
+    } */
+    /* ..... 1 header area*/
+    .header-navbar {
+	    padding: 20px 0px;
+    }
+    .header-logo h3 {
+        font-size: 22px;
+    }
+    .header-logo h3 {
+        padding-left: 10px;
+    }
+    
+    .header-logo img{
+        width: 33px;
+        height: 28px
+    }
+    .menu-icons {
+        font-size: 16px !important;
+
+    }
+    .header-banner {
+        padding: 32px 24px;
+    }
+    .banner-info h1 {
+        font-size: 22px;
+    }
+    .banner-info p {
+        padding-top: 10px;
+        padding-bottom: 32px;
+    }
+    .banner-buttons input, .banner-buttons select, .banner-buttons button {
+        width: 255px;
+        height: 52px;
+    }
+    /* 4. */
+    .row1,
+    .row2,
+    .row3 {
+        grid-template-columns:1fr;
+    
+    }
+
+    .one, .two, .three, .four, .five, .six, .seven {
+        height: 240px;
+    }
+
+    /* 5 */
+    .dd-img1, .dd-img2, .dd-img3 {
+        height: 500px;
+        padding: 20px;
+    }
+    .dd-cart {
+        padding: 10px;
+    }
+
+    /* 7.. subscribe */
+    .subscribe-sticker {
+        
+        width: 185px;
+        height: 79px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    /* 8 footer */
+    .company-link-logo {
+        margin: 20px 0 30px 0;
+    }
+    .footer hr {
+        margin-bottom: 30px;
+    }
+    .footer {
+        padding: 0;
+    }
+
+
+}
+@media screen and (max-width:376px){
+    
+}
+
+@media screen and (max-width:1150px){
+    .visiting-video {
+        flex-direction: column;
+        background: none;
+        border: none;
+        padding: 0 10px;
+    }
+    .visiting-video-info {
+        margin: 0px 0px 50px 0;
+    }
+    /* .visiting-video-area .section-padding{
+        padding: 50px 0 100px 0;
+    } */
+}
