@@ -170,8 +170,13 @@ input{
 /* 2 popular tour */
 .popular-tours{
     display: flex;
-    gap: 70px;
-   
+    gap: 70px; 
+}
+.popular-tour-image {
+	display: flex;
+	justify-content: center;
+	/* width: 100%; */
+	/* height: auto; */
 }
  .popular-tour-info {
 	padding: 0px 10px;
@@ -189,6 +194,10 @@ input{
 }
 .popular-tour-info  .button1{
     margin-top: 10px;
+}
+.popular-tour-img img{
+    width: 500px;
+    height: auto;
 }
 
 
@@ -394,20 +403,17 @@ input{
 }
 
 /* 6.  video area */
+
 .visiting-video {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	box-sizing: border-box;
-	border: 1px solid rgba(41, 206, 246, 0.20);
-	background: rgba(41, 206, 246, 0.05);
+	/* border: 1px solid rgba(41, 206, 246, 0.20); */
+	/* background: rgba(41, 206, 246, 0.05); */
 	padding: 50px 10px;
+	background: rgba(251, 181, 99, 0.05);
 }
-/* .cart2 {
-	border-radius: 16px;
-	border: 1px solid rgba(41, 206, 246, 0.20);
-	background: rgba(41, 206, 246, 0.05);
-} */
 
 .popular-tour-video video {
 	width: 100%;
@@ -550,4 +556,3 @@ input{
 .footer hr{
     margin-bottom: 100px;
 }
-
